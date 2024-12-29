@@ -5,11 +5,11 @@ import matplotlib.animation as animation
 # Parameters for K-Means clustering
 num_points = 2000         # Number of data points to generate
 grid_size = 20000         # Maximum range for randomly generated points
-num_clusters = 5          # Number of clusters (k)
+num_clusters = 10       # Number of clusters (k)
 animation_delay = 100     # Time delay between frames in the animation (ms)
 point_size = 5            # Size of the points in the scatter plot
 centroid_size = 100       # Size of the centroids in the scatter plot
-cluster_colors = ['red', 'blue', 'green', 'purple', 'orange']  # Colors for each cluster
+cluster_colors = ['red', 'blue', 'green', 'purple', 'orange', 'cyan', 'magenta', 'yellow', 'lime', 'pink']  # Colors for each cluster
 
 # Step 1: Generate random data points
 data_points = np.random.rand(num_points, 2) * grid_size
